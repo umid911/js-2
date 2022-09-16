@@ -112,10 +112,18 @@ var a = +prompt('Введите три любых числа');
 var b = +prompt('Введите три любых числа');
 var c = +prompt('Введите три любых числа');
 
-if ( a>b  || a<b || a>c || c> b|| c<b ){
-
+if (a > b && a < c || a < b && a > c) {
+    alert('Среднее число ' + a )
+} else if (b > a && b < c || b < a && b > c) {
+    alert('Среднее число ' + b) 
+} else if (c > a && c < b || c < a && c > b) {
+    alert('Среднее число ' + c)
+} else if (a == b || a == c || b == c ) {
+    alert('Среднее число ' + a || + b || + c)
 }
-
+ else {
+    alert('Не числа')
+}
  
 
     
