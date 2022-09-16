@@ -62,6 +62,47 @@ switch (num) {
    case 9:
    case 10:
       alert(num + ' часов утра ')
+      case 11: 
+      alert(num + ' часов утра')
+      break;
+      case 12: 
+      alert(num + ' часов дня')
+      break;
+      case 13: 
+      alert(num + ' часов дня')
+      break;
+      case 14: 
+      alert(num + ' часов дня')
+      break;
+      case 15: 
+      alert(num + ' часов дня')
+      break;
+      case 16: 
+      alert(num + ' часов дня')
+      break;
+      case 17: 
+      alert(num + ' часов дня')
+      break;
+      case 18: 
+      alert(num + ' часов вечера')
+      break;
+      case 19: 
+      alert(num +' часов вечера')
+      break;
+      case 20: 
+      alert(num + ' часов вечера')
+      break;
+      case 21: 
+      alert(num + ' часа вечера')
+      break;
+      case 22: 
+      alert(num + ' часа вечера')
+      break;
+      case 23: 
+      alert(num + ' часа ночи')
+      break;
+      default:
+      alert('Введены неверные часы')
 
 }
 
@@ -72,7 +113,7 @@ var b = +prompt('Введите три любых числа');
 var c = +prompt('Введите три любых числа');
 
 if ( a>b  || a<b || a>c || c> b|| c<b ){
-    
+
 }
 
  
