@@ -69,40 +69,40 @@ switch (num) {
       alert(num + ' часов дня')
       break;
       case 13: 
-      alert(num + ' час дня')
+      alert(  ' час дня')
       break;
       case 14: 
-      alert(num + '2 часа дня')
+      alert(  ' часа дня')
       break;
       case 15: 
-      alert(num + '3 часов дня')
+      alert(  '3 часов дня')
       break;
       case 16: 
-      alert(num + '4 часов дня')
+      alert(  '4 часов дня')
       break;
       case 17: 
-      alert(num + '5 часов дня')
+      alert(  '5 часов дня')
       break;
       case 18: 
-      alert(num + '6 часов вечера')
+      alert(  '6 часов вечера')
       break;
       case 19: 
-      alert(num +'7 часов вечера')
+      alert( '7 часов вечера')
       break;
       case 20: 
-      alert(num + '8 часов вечера')
+      alert( '8 часов вечера')
       break;
       case 21: 
-      alert(num + '9 часа вечера')
+      alert(  '9 часа вечера')
       break;
       case 22: 
-      alert(num + '10 часа вечера')
+      alert(  '10 часа вечера')
       break;
       case 23: 
-      alert(num + '11 часа ночи')
+      alert(  '11 часа ночи')
       break;
       case 24:
-      alert(num + '12 часа ночи')
+      alert( '12 часа ночи')
       break;
       default:
       alert('Введены неверные часы')
