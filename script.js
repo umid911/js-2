@@ -69,37 +69,40 @@ switch (num) {
       alert(num + ' часов дня')
       break;
       case 13: 
-      alert(num + ' часов дня')
+      alert(num + ' час дня')
       break;
       case 14: 
-      alert(num + ' часов дня')
+      alert(num + '2 часа дня')
       break;
       case 15: 
-      alert(num + ' часов дня')
+      alert(num + '3 часов дня')
       break;
       case 16: 
-      alert(num + ' часов дня')
+      alert(num + '4 часов дня')
       break;
       case 17: 
-      alert(num + ' часов дня')
+      alert(num + '5 часов дня')
       break;
       case 18: 
-      alert(num + ' часов вечера')
+      alert(num + '6 часов вечера')
       break;
       case 19: 
-      alert(num +' часов вечера')
+      alert(num +'7 часов вечера')
       break;
       case 20: 
-      alert(num + ' часов вечера')
+      alert(num + '8 часов вечера')
       break;
       case 21: 
-      alert(num + ' часа вечера')
+      alert(num + '9 часа вечера')
       break;
       case 22: 
-      alert(num + ' часа вечера')
+      alert(num + '10 часа вечера')
       break;
       case 23: 
-      alert(num + ' часа ночи')
+      alert(num + '11 часа ночи')
+      break;
+      case 24:
+      alert(num + '12 часа ночи')
       break;
       default:
       alert('Введены неверные часы')
@@ -118,9 +121,8 @@ if (a > b && a < c || a < b && a > c) {
     alert('Среднее число ' + b) 
 } else if (c > a && c < b || c < a && c > b) {
     alert('Среднее число ' + c)
-} else if (a == b || a == c || b == c ) {
-    alert('Среднее число ' + a || + b || + c)
 }
+
  else {
     alert('Не числа')
 }
